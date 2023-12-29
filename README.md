@@ -1,4 +1,4 @@
-# MythicMC-Price-Index-Image-Renamer
+# Image-Renamer
 
 Renames files into a correct format
 
