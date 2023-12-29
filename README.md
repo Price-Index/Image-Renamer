@@ -2,4 +2,4 @@
 
 Renames files into a correct format
 
-_Acacia Boat_.png --> acacia_boat.png
+``_Acacia Boat_.png --> acacia_boat.png``
