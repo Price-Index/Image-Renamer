@@ -41,7 +41,7 @@ def on_focus_out(event):
 
 # Rootr Frame
 root = ctk.CTk()
-root.iconbitmap('./resources/icon.ico')
+root.iconbitmap(os.path.join('resources', 'icon.ico'))
 root.title("File Renamer")
 root.geometry("960x540")
 root.resizable(False, False)
