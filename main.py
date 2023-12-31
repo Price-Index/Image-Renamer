@@ -1,4 +1,4 @@
-import os
+import os, platform
 import customtkinter as ctk
 from tkinter import filedialog
 
@@ -41,7 +41,8 @@ def on_focus_out(event):
 
 # Rootr Frame
 root = ctk.CTk()
-# root.iconbitmap(os.path.join(os.getcwd(), 'resources', 'icon.ico')) #test
+if platform.system() == 'Windows':
+    root.iconbitmap(os.path.join('resources', 'icon.ico'))
 root.title("File Renamer")
 root.geometry("960x540")
 root.resizable(False, False)
